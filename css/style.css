@@ -151,6 +151,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  bottom: 5rem;
 }
 .hero-text {
   font-size: 79px;
