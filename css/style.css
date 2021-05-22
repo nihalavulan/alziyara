@@ -59,6 +59,7 @@ body {
 }
 /* Navbar end  */
 
+
 /* Navbar Media Query Starts */
 @media only screen and (max-width: 600px) {
   .my-navbar {
@@ -79,6 +80,7 @@ body {
   }
 }
 /* Navbar Media Query Starts */
+
 
 /* navbar menu Starts*/
 .menu {
@@ -116,3 +118,12 @@ body {
   color: var(--primary-color);
 }
 /* navbar menu Ends*/
+
+
+/* navbar menu Media Query Starts*/
+@media only screen and (max-width: 700px){
+  .menu{
+    width: 100%;
+  }
+}
+/* navbar menu Media Query Ends*/
