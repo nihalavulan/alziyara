@@ -4,9 +4,50 @@
   --font-family: "Poppins", sans-serif;
 }
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-family: var(--font-family) !important;
+}
+.my-navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 5px 6px rgba(213, 213, 213, 0.25);
+}
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-icon {
+  cursor: pointer;
+}
+.logo {
+  width: 200px;
+  height: 60px;
+  margin-left: 1rem;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 16px;
+  background: #00b372;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #05c57f;
+  transition-duration: 0.5s;
 }
