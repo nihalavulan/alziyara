@@ -12,6 +12,7 @@
 }
 body {
   font-family: var(--font-family) !important;
+  height: 330vh;
 }
 
 /* Navbar start  */
@@ -139,6 +140,7 @@ body {
   width: 100%;
   height: calc(100vh - 65px);
   background-color: #fff;
+  display: flex;
 }
 .home-wrapper {
   display: flex;
@@ -149,11 +151,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.home-image-area {
-  width: 50%;
-  height: 80vh;
-  background-color: aquamarine;
 }
 .hero-text {
   font-size: 79px;
@@ -197,6 +194,54 @@ body {
 .sp-span {
   font-weight: bold;
   margin-right: 5px;
+}
+.home-image-area {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-images1,
+.home-images2,
+.home-images3 {
+  width: 10rem;
+  height: 30rem;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.home-images1 {
+  bottom: 1rem;
+  background-image: url("/images/alziyara-home-image-1.jpg");
+}
+.home-images2 {
+  top: 5rem;
+  background-image: url("/images/alziyara-home-image-2.jpg");
+}
+.home-images3 {
+  bottom: 5rem;
+  background-image: url("/images/alziyara-home-image-3.jpg");
+}
+.home-images1:hover,
+.home-images2:hover,
+.home-images3:hover {
+  right: 0.3rem;
+  transition-duration: 0.5s;
+}
+.home-images1:hover {
+  bottom: 1.3rem;
+}
+.home-images2:hover {
+  top: 5.3rem;
+}
+.home-images3:hover {
+  bottom: 5.3rem;
 }
 
 /* hero section Ends */
