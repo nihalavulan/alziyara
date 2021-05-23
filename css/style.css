@@ -481,10 +481,10 @@ body {
   flex: 1;
   margin: 1rem;
 }
-.founder-img-area{
-  width: 30rem;
-  height: 20rem;
-  background-color: wheat;
+.founder-text-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .founder-text{
   font-size: 17px;
@@ -493,7 +493,22 @@ body {
   color: var(--text-dark-shade);
 }
 .founder-name{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 1.5rem;
+  color: var(--primary-color);
+}
 
+.founder-img-area{
+  width: 30rem;
+  height: 20rem;
+  background-color: wheat;
+  border-radius: 17px;
+}
+
+.founder-text .iconify{
+  color: var(--primary-color);
 }
 
 /* Service section Ends */
