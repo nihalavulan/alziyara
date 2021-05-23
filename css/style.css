@@ -417,11 +417,11 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
+  padding-bottom: 3rem;
 }
 .about-video-area,
 .about-text-area {
   flex: 1;
-  height: 28rem;
 }
 .about-video-area {
   width: 39rem;
@@ -437,6 +437,7 @@ body {
   line-height: 32px;
   font-weight: 100;
   padding-left: 1rem;
+  color: var(--text-dark-shade);
 }
 /* About section Ends*/
 
@@ -465,3 +466,34 @@ body {
 }
 /* About Media query section Ends*/
 
+/* Service section Starts  */
+#founder-section{
+  width: 100%;
+  height: 80vh;
+  /* background-color: rgb(105, 96, 105); */
+}
+.founder-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+.founder-text-area,.founder-img-area{
+  flex: 1;
+  margin: 1rem;
+}
+.founder-img-area{
+  width: 30rem;
+  height: 20rem;
+  background-color: wheat;
+}
+.founder-text{
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 32px;
+  color: var(--text-dark-shade);
+}
+.founder-name{
+
+}
+
+/* Service section Ends */
