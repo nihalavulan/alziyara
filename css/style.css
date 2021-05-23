@@ -467,7 +467,7 @@ body {
 }
 /* About Media query section Ends*/
 
-/* Service section Starts  */
+/* Founder section Starts  */
 #founder-section{
   width: 100%;
   height: fit-content;
@@ -515,4 +515,23 @@ body {
   color: var(--primary-color);
 }
 
-/* Service section Ends */
+/* Founder section Ends */
+
+/* Founder section Media Query Starts */
+@media only screen and (max-width: 992px){
+  .founder-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .founder-text-area,.founder-img-area{
+    flex: none;
+  }
+  .founder-img-area{
+    order: 1;
+    width: 100%;
+  }
+  .founder-text-area{
+    order: 2;
+  }
+}
+/* Founder section Media Query Ends */
