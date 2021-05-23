@@ -13,7 +13,7 @@
 }
 body {
   font-family: var(--font-family) !important;
-  height: 330vh;
+  height: 430vh;
 }
 
 /* Navbar start  */
@@ -443,56 +443,55 @@ body {
 /* About section Ends*/
 
 /* About Media query section Starts*/
-@media only screen and (max-width: 992px){
-  .about-wrapper{
+@media only screen and (max-width: 992px) {
+  .about-wrapper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
 }
-@media only screen and (max-width: 681px){
+@media only screen and (max-width: 681px) {
   .about-video-area,
-  .about-text-area{
+  .about-text-area {
     width: 100%;
-}
-.about-text-area h4{
-  font-size: 16px;
-}
-@media only screen and (max-width: 400px){
-  .about-text-area h4{
-    font-size: 13px;
   }
-}
+  .about-text-area h4 {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 400px) {
+    .about-text-area h4 {
+      font-size: 13px;
+    }
+  }
 }
 /* About Media query section Ends*/
 
 /* Founder section Starts  */
-#founder-section{
+#founder-section {
   width: 100%;
   height: fit-content;
 }
-.founder-wrapper{
+.founder-wrapper {
   display: flex;
   justify-content: space-evenly;
-  
 }
-.founder-text-area,.founder-img-area{
+.founder-text-area,
+.founder-img-area {
   flex: 1;
   margin: 1rem;
 }
-.founder-text-area{
+.founder-text-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.founder-text{
+.founder-text {
   font-size: 17px;
   font-weight: 100;
   line-height: 32px;
   color: var(--text-dark-shade);
 }
-.founder-name{
+.founder-name {
   font-size: 18px;
   font-weight: bold;
   text-align: right;
@@ -500,38 +499,59 @@ body {
   color: var(--primary-color);
 }
 
-.founder-img-area{
+.founder-img-area {
   width: 30rem;
   height: 20rem;
   background-color: wheat;
-  background-image: url('/images/alziyara-founder-JahfarAvulan.jpeg');
+  background-image: url("/images/alziyara-founder-JahfarAvulan.jpeg");
   background-size: cover;
   background-position: center;
   border-radius: 17px;
   filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
 }
 
-.founder-text .iconify{
+.founder-text .iconify {
   color: var(--primary-color);
 }
 
 /* Founder section Ends */
 
 /* Founder section Media Query Starts */
-@media only screen and (max-width: 992px){
-  .founder-wrapper{
+@media only screen and (max-width: 992px) {
+  .founder-wrapper {
     flex-direction: column;
     align-items: center;
   }
-  .founder-text-area,.founder-img-area{
+  .founder-text-area,
+  .founder-img-area {
     flex: none;
   }
-  .founder-img-area{
+  .founder-img-area {
     order: 1;
     width: 100%;
   }
-  .founder-text-area{
+  .founder-text-area {
     order: 2;
   }
 }
 /* Founder section Media Query Ends */
+
+/* Service section Starts */
+#service-section{
+  width: 100%;
+  height: fit-content;
+  margin-top: 3rem;
+  background-color: var(--background-shade);
+}
+.service-wrapper{
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+}
+.service-card{
+  height: 17rem;
+  background-color:#fff;
+  box-shadow: 10px 8px 14px rgba(0, 0, 0, 0.03);
+  border-radius: 27px;
+  margin: 1rem;
+}
+/* Service section Ends */
