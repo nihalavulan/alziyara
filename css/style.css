@@ -313,4 +313,79 @@ body {
     font-size: 0.9rem;
   }
 }
+@media only screen and (max-width: 596px){
+  .container {
+    min-width: 412px;
+  }
+  #hero-section{
+    height: fit-content;
+  }
+  .home-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  }
+  .home-images3{
+    display: initial;
+  }
+  .home-text-area{
+    width: 100%;
+  }
+  .home-image-area{
+    width: 100%;
+  }
+  .hero-text {
+    font-size: 61px;
+    line-height: 58px;
+    max-width: 389px;
+}
+.hero-description {
+  font-size: 14px;
+  max-width: 298px;
+  line-height: 19px;
+  padding-top: 6px;
+}
+.know-btn {
+  margin-top: 0.5rem;
+  font-size: 18px;
+}
+.home-images1,.home-images2,.home-images3{
+  height: 25rem;
+  margin: 5px;
+}
+}
+@media only screen and (max-width: 412px){
+  .container {
+    min-width: 100px;
+  }
+  .hero-text {
+    font-size: 51px;
+    line-height: 58px;
+    max-width: 100%;
+  }
+  .home-images3{
+    bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 346px){
+  .quote-btn{
+    display: none;
+  }
+  .hero-description {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 290px){
+  .hero-text{
+    font-size: 41px;
+    line-height: 48px;
+  }
+  .home-images1,.home-images2,.home-images3{
+    margin: 2px;
+  }
+  .hero-description {
+    font-size: 13px;
+  }
+}
 /* hero section Media Query Ends*/
