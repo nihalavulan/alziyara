@@ -4,6 +4,7 @@
   --font-family: "Poppins", sans-serif;
   --text-light-shade: #8e8e8e;
   --text-dark-shade: #424242;
+  --background-shade:#FAFAFA;
 }
 * {
   margin: 0;
@@ -183,6 +184,7 @@ body {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
+  color: var(--text-dark-shade);
 }
 .social-proof h6 {
   margin: 0 0 10px 0;
@@ -389,3 +391,15 @@ body {
   }
 }
 /* hero section Media Query Ends*/
+
+/* About section Starts*/
+#about-section{
+  width: 100%;
+  height: fit-content;
+  background-color:var(--background-shade);
+  margin-top: 4rem;
+}
+.section-heading{
+  color: var(--text-dark-shade);
+}
+/* About section Ends*/
