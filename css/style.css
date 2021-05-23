@@ -4,7 +4,7 @@
   --font-family: "Poppins", sans-serif;
   --text-light-shade: #8e8e8e;
   --text-dark-shade: #424242;
-  --background-shade:#FAFAFA;
+  --background-shade: #fafafa;
 }
 * {
   margin: 0;
@@ -315,49 +315,51 @@ body {
     font-size: 0.9rem;
   }
 }
-@media only screen and (max-width: 596px){
+@media only screen and (max-width: 596px) {
   .container {
     min-width: 412px;
   }
-  #hero-section{
+  #hero-section {
     height: fit-content;
   }
-  .home-wrapper{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+  .home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
   }
-  .home-images3{
+  .home-images3 {
     display: initial;
   }
-  .home-text-area{
+  .home-text-area {
     width: 100%;
   }
-  .home-image-area{
+  .home-image-area {
     width: 100%;
   }
   .hero-text {
     font-size: 61px;
     line-height: 58px;
     max-width: 389px;
+  }
+  .hero-description {
+    font-size: 14px;
+    max-width: 298px;
+    line-height: 19px;
+    padding-top: 6px;
+  }
+  .know-btn {
+    margin-top: 0.5rem;
+    font-size: 18px;
+  }
+  .home-images1,
+  .home-images2,
+  .home-images3 {
+    height: 25rem;
+    margin: 5px;
+  }
 }
-.hero-description {
-  font-size: 14px;
-  max-width: 298px;
-  line-height: 19px;
-  padding-top: 6px;
-}
-.know-btn {
-  margin-top: 0.5rem;
-  font-size: 18px;
-}
-.home-images1,.home-images2,.home-images3{
-  height: 25rem;
-  margin: 5px;
-}
-}
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 412px) {
   .container {
     min-width: 100px;
   }
@@ -366,24 +368,26 @@ body {
     line-height: 58px;
     max-width: 100%;
   }
-  .home-images3{
+  .home-images3 {
     bottom: 1rem;
   }
 }
-@media only screen and (max-width: 346px){
-  .quote-btn{
+@media only screen and (max-width: 346px) {
+  .quote-btn {
     display: none;
   }
   .hero-description {
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 290px){
-  .hero-text{
+@media only screen and (max-width: 290px) {
+  .hero-text {
     font-size: 41px;
     line-height: 48px;
   }
-  .home-images1,.home-images2,.home-images3{
+  .home-images1,
+  .home-images2,
+  .home-images3 {
     margin: 2px;
   }
   .hero-description {
@@ -393,20 +397,45 @@ body {
 /* hero section Media Query Ends*/
 
 /* About section Starts*/
-#about-section{
+#about-section {
   width: 100%;
   height: fit-content;
-  background-color:var(--background-shade);
+  background-color: var(--background-shade);
   margin-top: 3rem;
-  text-align: center;
 }
-.section-heading{
+.section-heading {
   color: var(--text-dark-shade);
   font-size: 35px;
   padding-top: 1rem;
   font-weight: bold;
+  text-align: center;
 }
-.section-heading-span{
+.section-heading-span {
   color: var(--primary-color);
+}
+.about-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.about-video-area,
+.about-text-area {
+  flex: 1;
+  height: 28rem;
+}
+.about-video-area {
+  width: 39rem;
+  height: 20rem;
+  background-color: #fff;
+  margin: 1rem;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.17));
+}
+
+.about-text-area h4 {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 100;
+  padding-left: 1rem;
 }
 /* About section Ends*/
