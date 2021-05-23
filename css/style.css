@@ -397,9 +397,16 @@ body {
   width: 100%;
   height: fit-content;
   background-color:var(--background-shade);
-  margin-top: 4rem;
+  margin-top: 3rem;
+  text-align: center;
 }
 .section-heading{
   color: var(--text-dark-shade);
+  font-size: 35px;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.section-heading-span{
+  color: var(--primary-color);
 }
 /* About section Ends*/
