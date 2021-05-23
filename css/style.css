@@ -219,15 +219,14 @@ body {
   filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
 }
 .home-images1 {
-  bottom: 1rem;
   background-image: url("/images/alziyara-home-image-1.jpg");
 }
 .home-images2 {
-  top: 5rem;
+  top: 3rem;
   background-image: url("/images/alziyara-home-image-2.jpg");
 }
 .home-images3 {
-  bottom: 5rem;
+  bottom: 3rem;
   background-image: url("/images/alziyara-home-image-3.jpg");
 }
 .home-images1:hover,
@@ -237,13 +236,13 @@ body {
   transition-duration: 0.5s;
 }
 .home-images1:hover {
-  bottom: 1.3rem;
+  bottom: .3rem;
 }
 .home-images2:hover {
-  top: 5.3rem;
+  top: 3.3rem;
 }
 .home-images3:hover {
-  bottom: 5.3rem;
+  bottom: 3.3rem;
 }
 
 /* hero section Ends */
