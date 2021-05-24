@@ -712,6 +712,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.msg-btn{
+  font-size: 16px;
+}
 
 /* Contacts section Ends  */
 
