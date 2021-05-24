@@ -16,7 +16,6 @@ html {
 }
 body {
   font-family: var(--font-family) !important;
-  height: 600vh;
 }
 
 /* Navbar start  */
@@ -695,7 +694,7 @@ body {
 }
 .form-area {
   padding: 2rem;
-  border: 1px solid var(--background-shade);
+
 }
 .map-area {
   background-color:var(--background-shade);
@@ -729,3 +728,23 @@ body {
 }
 }
 /* Contacts section Media Query Ends  */
+
+/* Social meida section Starts */
+#social-media{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sm-icon-wrapper{
+  width: 40%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sm-icons:hover{
+  transition-duration: .3s;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+/* Social meida section Ends */
