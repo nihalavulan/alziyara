@@ -589,28 +589,36 @@ body {
 /* Testimonials section Starts */
 .test-heading{
   margin-bottom: 2rem;
+  color: #fff;
 }
-.demo{ background: #ffffff; }
+.demo{ 
+  background-image: url('/images/alziyara-testimonial-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .testimonial{
     margin: 0 20px 40px;
 }
 .testimonial .testimonial-content{
     padding: 35px 25px 35px 50px;
     margin-bottom: 35px;
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    position: relative;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 20px;
+    position: relative; 
 }
 .testimonial .testimonial-content:after{
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #fff;
+   
+    width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid rgba(255, 255, 255, 0.45);
     position: absolute;
-    bottom: -10px;
+    bottom: -20px;
     left: 22px;
-    transform: rotate(45deg);
+    
 }
 .testimonial-content .testimonial-icon{
     width: 50px;
@@ -635,7 +643,7 @@ body {
 .testimonial .description{
     font-size: 15px;
     font-style: italic;
-    color: #8a8a8a;
+    color: #ffffff;
     line-height: 23px;
     margin: 0;
 }
@@ -643,7 +651,7 @@ body {
     display: block;
     font-size: 18px;
     font-weight: 700;
-    color: #525252;
+    color: #fff;
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 0 0 5px 0;
@@ -651,7 +659,7 @@ body {
 .testimonial .post{
     display: block;
     font-size: 14px;
-    color: var(--primary-color);
+    color: #fff;
 }
 .owl-theme .owl-controls{
     margin-top: 20px;
