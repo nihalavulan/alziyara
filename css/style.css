@@ -560,7 +560,6 @@ body {
   padding: 1rem;
   flex-direction: column;
   color: var(--text-dark-shade);
-  cursor: pointer;
   justify-content: center;
 }
 .service-card hr {
@@ -581,5 +580,7 @@ body {
   font-weight: 100;
   text-transform: capitalize;
 }
-
+.service-card:hover{
+  color: var(--primary-color);
+}
 /* Service section Ends */
