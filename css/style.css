@@ -13,7 +13,6 @@
 }
 body {
   font-family: var(--font-family) !important;
-  height: 430vh;
 }
 
 /* Navbar start  */
@@ -537,21 +536,47 @@ body {
 /* Founder section Media Query Ends */
 
 /* Service section Starts */
-#service-section{
+#service-section {
   width: 100%;
   height: fit-content;
   margin-top: 3rem;
   background-color: var(--background-shade);
 }
-.service-wrapper{
+.service-wrapper {
   padding-bottom: 4rem;
   padding-top: 1rem;
 }
-.service-card{
-  height: 17rem;
-  background-color:#fff;
+.service-card {
+  height: 16rem;
+  min-height: fit-content;
+  background-color: #fff;
   box-shadow: 10px 8px 14px rgba(0, 0, 0, 0.03);
   border-radius: 27px;
-  margin: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  color: var(--text-dark-shade);
+  cursor: pointer;
+  justify-content: center;
 }
+.service-card hr {
+  margin: 0;
+}
+.service-card .iconify {
+  margin-bottom: 1rem;
+}
+.service-name {
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-size: 20px;
+}
+.service-desc {
+  color: var(--text-light-shade);
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
 /* Service section Ends */
