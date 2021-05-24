@@ -14,7 +14,7 @@ function showHideMenu() {
   }
 }
 
-
+//Testimonials Carosel
 $(document).ready(function(){
   $("#testimonial-slider").owlCarousel({
       items:3,
