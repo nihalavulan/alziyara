@@ -322,7 +322,7 @@ body {
   .container {
     min-width: 412px;
   }
-  #hero-section {
+  #home {
     height: fit-content;
   }
   .home-wrapper {
@@ -587,4 +587,6 @@ body {
 /* Service section Ends */
 
 /* Testimonials section Starts */
+
+
 /* Testimonials section Ends */
