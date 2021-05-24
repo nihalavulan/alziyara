@@ -16,6 +16,7 @@ html{
 }
 body {
   font-family: var(--font-family) !important;
+  height: 600vh;
 }
 
 /* Navbar start  */
@@ -539,7 +540,7 @@ body {
 /* Founder section Media Query Ends */
 
 /* Service section Starts */
-#service {
+#services{
   width: 100%;
   height: fit-content;
   margin-top: 3rem;
