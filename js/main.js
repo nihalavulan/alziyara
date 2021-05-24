@@ -15,16 +15,33 @@ function showHideMenu() {
 }
 
 //Testimonials Carosel
-$(document).ready(function(){
+$(document).ready(function () {
   $("#testimonial-slider").owlCarousel({
-      items:3,
-      itemsDesktop:[1000,3],
-      itemsDesktopSmall:[980,2],
-      itemsTablet:[768,2],
-      itemsMobile:[650,1],
-      pagination:true,
-      navigation:false,
-      slideSpeed:1000,
-      autoPlay:true
+    items: 3,
+    itemsDesktop: [1000, 3],
+    itemsDesktopSmall: [980, 2],
+    itemsTablet: [768, 2],
+    itemsMobile: [650, 1],
+    pagination: true,
+    navigation: false,
+    slideSpeed: 1000,
+    autoPlay: true,
+  });
+});
+//contact form submision
+$("#submit-form").submit((e) => {
+  e.preventDefault();
+  $.ajax({
+    url: "https://script.google.com/macros/s/AKfycbzxqmxajdmxGkKvunrkoNm-2MgZRCOHpuvebVgY9lNG-iPogi_tTils8rp4HXyFnElf/exec",
+    data: $("#submit-form").serialize(),
+    method: "post",
+    success: function (response) {
+      alert("Form submitted successfully");
+      window.location.reload();
+      //window.location.href="https://google.com"
+    },
+    error: function (err) {
+      alert("Something Error");
+    },
   });
 });

@@ -712,6 +712,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.button-area button :focus{
+  display: none;
+}
 .msg-btn {
   font-size: 16px;
 }

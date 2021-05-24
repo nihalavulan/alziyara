@@ -12,6 +12,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <!-- Navbar start -->
@@ -258,7 +259,7 @@
         <h3 class="section-heading">Contact Us<span class="section-heading-span">.</span></h3>
         <div class="contact-wrapper container">
             <div class="form-area">
-                <form action="">
+                <form id="submit-form" action="" >
                     <div class="form-group">
                         <label for="Name">Name :</label>
                         <input type="text" name="Name" class="form-control" placeholder="">
@@ -268,11 +269,11 @@
                         <input type="email" name="Email" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea2">Message :</label>
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="8"></textarea>
+                        <label for="Message">Message :</label>
+                        <textarea placeholder="" class="form-control rounded-0" name="Message"  rows="8"></textarea>
                     </div>
                     <div class="button-area">
-                        <a href="#contact" class="button know-btn msg-btn">Sent Message</a>
+                        <button type="submit" class="button know-btn msg-btn" style="color: #fff; border: none; cursor: pointer;">Sent Message</button>
                     </div>
                 </form>
             </div>
@@ -308,6 +309,8 @@
         <h6 class="advo">Designed and Devoloped by <a href="">advodigitals</a></h6>
     </div>
 </footer>
+
+
 
 <body>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
