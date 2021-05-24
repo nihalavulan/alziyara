@@ -6,6 +6,9 @@
   --text-dark-shade: #424242;
   --background-shade: #fafafa;
 }
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +139,7 @@ body {
 /* navbar menu Media Query Ends*/
 
 /* hero section starts */
-#hero-section {
+#home {
   width: 100%;
   height: calc(100vh - 65px);
   background-color: #fff;
@@ -396,7 +399,7 @@ body {
 /* hero section Media Query Ends*/
 
 /* About section Starts*/
-#about-section {
+#about{
   width: 100%;
   height: fit-content;
   background-color: var(--background-shade);
@@ -466,7 +469,7 @@ body {
 /* About Media query section Ends*/
 
 /* Founder section Starts  */
-#founder-section {
+#founder{
   width: 100%;
   height: fit-content;
 }
@@ -536,7 +539,7 @@ body {
 /* Founder section Media Query Ends */
 
 /* Service section Starts */
-#service-section {
+#service {
   width: 100%;
   height: fit-content;
   margin-top: 3rem;
