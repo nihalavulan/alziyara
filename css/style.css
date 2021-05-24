@@ -678,7 +678,6 @@ body {
 #contact {
   width: 100%;
   height: fit-content;
-  /* background-color: wheat; */
   padding-bottom: 3rem;
   padding-top: 1rem;
 }
@@ -690,7 +689,7 @@ body {
 }
 .form-area,
 .map-area {
-  width: 500px;
+  flex: 1;
   height: 500px;
   margin: 1rem;
 }
@@ -699,21 +698,34 @@ body {
   border: 1px solid var(--background-shade);
 }
 .map-area {
-  background-color: yellowgreen;
+  background-color:var(--background-shade);
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
 }
-.form-area form label{
+.form-area form label {
   color: var(--text-dark-shade);
 }
-.form-area form input,.form-area textarea{
+.form-area form input,
+.form-area textarea {
   border: none;
   background-color: var(--background-shade);
 }
-.button-area{
+.button-area {
   display: flex;
   justify-content: center;
 }
-.msg-btn{
- 
-}
+
 /* Contacts section Ends  */
+
+/* Contacts section Media Query Starts  */
+@media only screen and (max-width: 992px) {
+  .contact-wrapper{
+    flex-direction: column;
+  }
+  .form-area,
+  .map-area{
+  flex: none;
+  width: 100%;
+}
+}
+/* Contacts section Media Query Ends  */
