@@ -24,7 +24,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body onload="AOS.init();" data-aos-duration="3000">
+<body>
+
 <!-- Navbar start -->
 <header class="my-navbar">
     <div class="container-fluid container-xl">
@@ -164,11 +165,13 @@
     <!-- About section Starts -->
     <section id="about">
         <h3 class="section-heading"   data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" >About Us<span class="section-heading-span">.</span></h3>
-        <div class="about-wrapper container" data-aos="fade-right">
-            <iframe class="about-video-area" src="https://www.youtube.com/embed/nIPmt1ye6HU"
+        <div class="about-wrapper container">
+            <div class="about-video-area" data-aos-duration="1000" data-aos-delay="100" data-aos="fade-right">
+                <iframe src="https://www.youtube.com/embed/nIPmt1ye6HU"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allowfullscreen width="100%" height="100%"></iframe>
+            </div>
             <div class="about-text-area" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
                 <h4><b>Al-Ziyara</b> Travels is a prominent name and best destination for Hajj & Umrah services apart
                     from
@@ -189,7 +192,7 @@
         <h3 class="section-heading"   data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Founder<span class="section-heading-span">.</span></h3>
         <div class="founder-wrapper container">
             <div class="founder-text-area">
-                <h4 class="founder-text" data-aos="fade-right">
+                <h4 class="founder-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150">
                     <span class="iconify" data-inline="false" data-icon="bx:bxs-quote-alt-left"></span>From reviews of
                     our customers, Alziyara has proved the best service in the both travel and hajj
                     umrah field for more than the past 15 years. full commitment to our customers helps them to fulfill
@@ -199,7 +202,7 @@
                 </h4>
                 <h2 class="founder-name">- JAHFAR AVULAN</h2>
             </div>
-            <div class="founder-img-area" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100"></div>
+            <div class="founder-img-area" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"></div>
         </div>
     </section>
     <!-- Founder section Ends -->
@@ -342,7 +345,7 @@
     <!-- Contacts section Starts -->
     <section id="contact">
         <h3 class="section-heading"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Contact Us<span class="section-heading-span">.</span></h3>
-        <div class="contact-wrapper container">
+        <div class="contact-wrapper container" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
             <div class="form-area">
                 <form id="submit-form" action="">
                     <div class="form-group">
@@ -374,23 +377,23 @@
     <!-- Social meida section Starts -->
     <section id="social-media">
         <div class="sm-icon-wrapper">
-            <a href="tel: 082899 26338" class="sm-icons">
+            <a href="tel: 082899 26338" class="sm-icons" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
                 <span class="iconify" data-inline="false" data-icon="fluent:call-16-regular"
                     style="color: #00b272; font-size: 37px;"></span>
             </a>
-            <a href="https://wa.me/+91 9895331338" class="sm-icons">
+            <a href="https://wa.me/+91 9895331338" class="sm-icons" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
                 <span class="iconify" data-inline="false" data-icon="akar-icons:whatsapp-fill"
                     style="color: #00b272; font-size: 28px;"></span>
             </a>
-            <a href="https://www.instagram.com/alziyaratravels/" class="sm-icons">
+            <a href="https://www.instagram.com/alziyaratravels/" class="sm-icons" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
                 <span class="iconify" data-inline="false" data-icon="akar-icons:instagram-fill"
                     style="color: #00b272; font-size: 31px;"></span>
             </a>
-            <a href="https://www.facebook.com/alziyaratravel/" class="sm-icons">
+            <a href="https://www.facebook.com/alziyaratravel/" class="sm-icons" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
                 <span class="iconify" data-inline="false" data-icon="eva:facebook-outline"
                     style="color: #00b272; font-size: 31px;"></span>
             </a>
-            <a href="mailto:alziyaramlp@gmail.com" class="sm-icons">
+            <a href="mailto:alziyaramlp@gmail.com" class="sm-icons" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
                 <span class="iconify" data-inline="false" data-icon="codicon:mail"
                     style="color: #00b272; font-size: 37px;"></span>
             </a>
@@ -402,9 +405,10 @@
 <footer>
     <div class="footer">
         <p>Copyright © 2021.All Right Reserved.</p>
-        <h6 class="advo">Designed and Devoloped by <a href="">advodigitals</a></h6>
+        <h6 class="advo">Designed and Devoloped by <a href="https://www.instagram.com/nihaaal.a/">@nihalavulan</a></h6>
     </div>
 </footer>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
