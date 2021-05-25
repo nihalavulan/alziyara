@@ -451,14 +451,36 @@ body {
 .cta-area{
   width: 100%;
   height: 3rem;
-  background: rgba(255, 255, 255, 0.70);
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1rem;
 }
 .cta-area a{
-  flex: 1;
   color: var(--text-dark-shade);
-  text-decoration: underline;
+}
+.whatsapp,.call{
+  background: rgba(255, 255, 255, 0.70);
+  margin: .5rem;
+  padding: .5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+.whatsapp{
+  margin-right: .2rem;
+}
+.call{
+  margin-left: .2rem;
+}
+.call:hover,.whatsapp:hover{
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+}
+.p-card-text-wrapper p{
+  font-size: 14px;
 }
 /* packages sectio ends */
 
