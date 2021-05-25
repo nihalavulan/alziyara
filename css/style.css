@@ -411,13 +411,15 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .package-card{
-  width: 25%;
+  width: 23%;
   height: 25rem;
-  margin: 1rem;
+  margin: 0.3rem;
   background-color: rgb(214, 214, 214);
   border-radius: 10px;
   background-image: url(/images/russia-alziyara-package.jpg);
@@ -439,9 +441,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
 }
 .btn-area a{
-  font-size: 18px;
+  font-size: 13px;
 }
 .p-card-text-wrapper{
   max-width: 100%;
@@ -483,6 +486,19 @@ body {
   font-size: 14px;
 }
 /* packages sectio ends */
+
+/* packages section Media query starts */
+@media only screen and (max-width: 992px){
+  .package-card{
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 575px){
+  .package-card{
+    width: 98%;
+  }
+}
+/* packages section Media query ends */
 
 /* About section Starts*/
 #about {
