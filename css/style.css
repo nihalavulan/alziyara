@@ -399,13 +399,13 @@ body {
 /* hero section Media Query Ends*/
 
 /* packages sectio starts */
-#packages{
+#packages {
   width: 100%;
   height: fit-content;
   margin-top: 3rem;
   padding-bottom: 3rem;
 }
-.packages-wrapper{
+.packages-wrapper {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -416,7 +416,7 @@ body {
   padding-bottom: 2rem;
   flex-wrap: wrap;
 }
-.package-card{
+.package-card {
   width: 23%;
   height: 25rem;
   margin: 0.3rem;
@@ -428,7 +428,7 @@ body {
   position: relative;
   filter: drop-shadow(4px 4px 14px rgba(0, 0, 0, 0.25));
 }
-.shade-layer{
+.shade-layer {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
@@ -437,28 +437,28 @@ body {
   height: 100%;
   border-radius: 14px;
 }
-.pack-btn{
+.pack-btn {
   display: flex;
   justify-content: center;
 }
-.pack-btn a{
+.pack-btn a {
   font-size: 16px;
 }
-.btn-area{
+.btn-area {
   display: flex;
   justify-content: center;
   align-items: center;
   width: fit-content;
 }
-.btn-area a{
+.btn-area a {
   font-size: 13px;
 }
-.p-card-text-wrapper{
+.p-card-text-wrapper {
   max-width: 100%;
   color: white;
   padding: 1rem;
 }
-.cta-area{
+.cta-area {
   width: 100%;
   height: 3rem;
   display: flex;
@@ -467,41 +467,43 @@ body {
   position: absolute;
   bottom: 1rem;
 }
-.cta-area a{
+.cta-area a {
   color: var(--text-dark-shade);
 }
-.whatsapp,.call{
-  background: rgba(255, 255, 255, 0.70);
-  margin: .5rem;
-  padding: .5rem;
+.whatsapp,
+.call {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0.5rem;
+  padding: 0.5rem;
   width: 100%;
   text-align: center;
   border-radius: 5px;
 }
-.whatsapp{
-  margin-right: .2rem;
+.whatsapp {
+  margin-right: 0.2rem;
 }
-.call{
-  margin-left: .2rem;
+.call {
+  margin-left: 0.2rem;
 }
-.call:hover,.whatsapp:hover{
+.call:hover,
+.whatsapp:hover {
   background: #fff;
   text-decoration: none;
   color: #000;
 }
-.p-card-text-wrapper p{
+.p-card-text-wrapper p {
   font-size: 14px;
 }
 /* packages sectio ends */
 
 /* packages section Media query starts */
-@media only screen and (max-width: 992px){
-  .package-card{
+@media only screen and (max-width: 992px) {
+  .package-card {
     width: 48%;
   }
 }
-@media only screen and (max-width: 575px){
-  .package-card{
+@media only screen and (max-width: 575px) {
+  .package-card {
     width: 98%;
   }
 }
@@ -542,7 +544,7 @@ body {
   border-radius: 10px;
   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.17));
 }
-.about-video-area iframe{
+.about-video-area iframe {
   border-radius: 10px;
 }
 .about-text-area h4 {
@@ -866,13 +868,12 @@ body {
 
 /* footer starts */
 
-
-footer{
+footer {
   width: 100%;
   height: 6rem;
   position: relative;
 }
-.footer{
+.footer {
   width: 100%;
   height: 100%;
   background-color: var(--primary-color);
@@ -898,5 +899,5 @@ footer{
 .footer .advo a {
   color: rgb(255, 255, 255);
   text-decoration: underline;
-} 
+}
 /* footer ends*/
