@@ -20,12 +20,11 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body>
-
-
+<body onload="AOS.init();">
 <!-- Navbar start -->
 <header class="my-navbar">
     <div class="container-fluid container-xl">
@@ -66,7 +65,7 @@
     <!-- Hero section starts -->
     <section id="home">
         <div class="container home-wrapper">
-            <div class="home-text-area">
+            <div class="home-text-area"  data-aos="zoom-in" data-aos-duration="1000">
                 <h1 class="hero-text"><span class="hero-text-span">Feel</span> the real way of <span
                         class="hero-text-span">Travelling.</span></h1>
                 <h5 class="hero-description">Alziyara is here to help you for completing your dream journeys in the
@@ -82,9 +81,9 @@
                 </div>
             </div>
             <div class="home-image-area">
-                <div class="home-images1"></div>
-                <div class="home-images2"></div>
-                <div class="home-images3"></div>
+                <div class="home-images1" data-aos="fade-up-right" data-aos-duration="1000"></div>
+                <div class="home-images2" data-aos="fade-up" data-aos-duration="1000"></div>
+                <div class="home-images3" data-aos="fade-up-left" data-aos-duration="1000"></div>
             </div>
         </div>
     </section>
@@ -406,8 +405,7 @@
         <h6 class="advo">Designed and Devoloped by <a href="">advodigitals</a></h6>
     </div>
 </footer>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></scrip>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
