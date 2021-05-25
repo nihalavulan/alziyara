@@ -398,12 +398,75 @@ body {
 }
 /* hero section Media Query Ends*/
 
+/* packages sectio starts */
+#packages{
+  width: 100%;
+  height: fit-content;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+.packages-wrapper{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.package-card{
+  width: 25%;
+  height: 25rem;
+  margin: 1rem;
+  background-color: rgb(214, 214, 214);
+  border-radius: 14px;
+  background-image: url(/images/russia-alziyara-package.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  filter: drop-shadow(4px 4px 14px rgba(0, 0, 0, 0.25));
+}
+.shade-layer{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+.btn-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-area a{
+  font-size: 18px;
+}
+.p-card-text-wrapper{
+  max-width: 100%;
+  color: white;
+  padding: 1rem;
+}
+.cta-area{
+  width: 100%;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.70);
+  display: flex;
+  align-items: center;
+}
+.cta-area a{
+  flex: 1;
+  color: var(--text-dark-shade);
+  text-decoration: underline;
+}
+/* packages sectio ends */
+
 /* About section Starts*/
 #about {
   width: 100%;
   height: fit-content;
   background-color: var(--background-shade);
-  margin-top: 3rem;
 }
 .section-heading {
   color: var(--text-dark-shade);
