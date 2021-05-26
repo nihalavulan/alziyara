@@ -221,15 +221,15 @@ body {
   filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
 }
 .home-images1 {
-  background-image: url("images/alziyara-home-image-1.jpg");
+  background-image: url("../images/alziyara-home-image-1.jpg");
 }
 .home-images2 {
   top: 3rem;
-  background-image: url("images/alziyara-home-image-2.jpg");
+  background-image: url("../images/alziyara-home-image-2.jpg");
 }
 .home-images3 {
   bottom: 3rem;
-  background-image: url("images/alziyara-home-image-3.jpg");
+  background-image: url("../images/alziyara-home-image-3.jpg");
 }
 .home-images1:hover,
 .home-images2:hover,
@@ -422,7 +422,7 @@ body {
   margin: 0.3rem;
   background-color: rgb(214, 214, 214);
   border-radius: 10px;
-  background-image: url("images/russia-alziyara-package.jpg");
+  background-image: url("../images/russia-alziyara-package.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -617,7 +617,7 @@ body {
   width: 30rem;
   height: 20rem;
   background-color: wheat;
-  background-image: url("images/alziyara-founder-JahfarAvulan.jpeg");
+  background-image: url("../images/alziyara-founder-JahfarAvulan.jpeg");
   background-size: cover;
   background-position: center;
   border-radius: 17px;
@@ -703,7 +703,7 @@ body {
   color: #fff;
 }
 .demo {
-  background-image: url("/alziyara-testimonial-background.jpg");
+  background-image: url("../images/alziyara-testimonial-background.jpg");
   background-size: cover;
   background-position: center;
 }

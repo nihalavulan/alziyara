@@ -1,4 +1,4 @@
-//AOS 
+//AOS
 AOS.init();
 // navbar show hide function
 var menu = document.getElementById("menu");
