@@ -422,11 +422,22 @@ body {
   margin: 0.3rem;
   background-color: rgb(214, 214, 214);
   border-radius: 10px;
-  background-image: url("../images/russia-alziyara-package.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
   filter: drop-shadow(4px 4px 14px rgba(0, 0, 0, 0.25));
+}
+.russia{
+  background-image: url("../images/russia-alziyara-package.webp");
+}
+.armenia{
+  background-image: url("../images/armenia-alziyara-package.webp");
+}
+.ethiopia{
+  background-image: url("../images/ethiopia-alziyara-package.webp");
+}
+.uzbekistan{
+  background-image: url("../images/uzbekistan-alziyara-package.webp");
 }
 .shade-layer {
   background-color: rgba(0, 0, 0, 0.5);
