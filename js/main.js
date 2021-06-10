@@ -1,6 +1,4 @@
-//AOS
 AOS.init();
-// navbar show hide function
 var menu = document.getElementById("menu");
 var menuOpen = document.getElementById("open");
 var menuClose = document.getElementById("close");
@@ -15,9 +13,6 @@ function showHideMenu() {
     menu.style.display = "none";
   }
 }
-
-
-//contact form submision
 $("#submit-form").submit((e) => {
   e.preventDefault();
   $.ajax({
@@ -27,7 +22,6 @@ $("#submit-form").submit((e) => {
     success: function (response) {
       alert("Form submitted successfully");
       window.location.reload();
-      //window.location.href="https://google.com"
     },
     error: function (err) {
       alert("Something Error");

@@ -17,8 +17,6 @@ html {
 body {
   font-family: var(--font-family) !important;
 }
-
-/* Navbar start  */
 .my-navbar {
   width: 100%;
   height: 65px;
@@ -28,7 +26,7 @@ body {
   box-shadow: 0px 5px 6px rgba(213, 213, 213, 0.25);
   z-index: 9;
 }
-.nav-contain{
+.nav-contain {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,9 +63,6 @@ body {
   position: absolute;
   visibility: hidden;
 }
-/* Navbar end  */
-
-/* Navbar Media Query Starts */
 @media only screen and (max-width: 600px) {
   .my-navbar {
     height: 50px;
@@ -90,13 +85,10 @@ body {
     height: 30px;
   }
 }
-/* Navbar Media Query Starts */
-
-/* navbar menu Starts*/
 .menu {
   height: 100vh;
   width: 35%;
-  background-color: #ffffff;
+  background-color: #fff;
   position: absolute;
   top: 65px;
   box-shadow: 5px 0 6px -2px rgba(213, 213, 213, 0.25);
@@ -128,17 +120,11 @@ body {
   transition-duration: 0.3s;
   color: var(--primary-color);
 }
-/* navbar menu Ends*/
-
-/* navbar menu Media Query Starts*/
 @media only screen and (max-width: 700px) {
   .menu {
     width: 100%;
   }
 }
-/* navbar menu Media Query Ends*/
-
-/* hero section starts */
 #home {
   width: 100%;
   height: calc(100vh - 65px);
@@ -221,15 +207,15 @@ body {
   filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
 }
 .home-images1 {
-  background-image: url("../images/alziyara-home-image-1.jpg");
+  background-image: url("../images/alziyara-home-image-1.webp");
 }
 .home-images2 {
   top: 3rem;
-  background-image: url("../images/alziyara-home-image-2.jpg");
+  background-image: url("../images/alziyara-home-image-2.webp");
 }
 .home-images3 {
   bottom: 3rem;
-  background-image: url("../images/alziyara-home-image-3.jpg");
+  background-image: url("../images/alziyara-home-image-3.webp");
 }
 .home-images1:hover,
 .home-images2:hover,
@@ -246,10 +232,6 @@ body {
 .home-images3:hover {
   bottom: 3.3rem;
 }
-
-/* hero section Ends */
-
-/* hero section Media Query Starts*/
 @media only screen and (max-width: 992px) {
   .container {
     min-width: 768px;
@@ -396,9 +378,6 @@ body {
     font-size: 13px;
   }
 }
-/* hero section Media Query Ends*/
-
-/* packages sectio starts */
 #packages {
   width: 100%;
   height: fit-content;
@@ -427,16 +406,16 @@ body {
   position: relative;
   filter: drop-shadow(4px 4px 14px rgba(0, 0, 0, 0.25));
 }
-.russia{
+.russia {
   background-image: url("../images/russia-alziyara-package.webp");
 }
-.armenia{
+.armenia {
   background-image: url("../images/armenia-alziyara-package.webp");
 }
-.ethiopia{
+.ethiopia {
   background-image: url("../images/ethiopia-alziyara-package.webp");
 }
-.uzbekistan{
+.uzbekistan {
   background-image: url("../images/uzbekistan-alziyara-package.webp");
 }
 .shade-layer {
@@ -505,9 +484,6 @@ body {
 .p-card-text-wrapper p {
   font-size: 14px;
 }
-/* packages sectio ends */
-
-/* packages section Media query starts */
 @media only screen and (max-width: 992px) {
   .package-card {
     width: 48%;
@@ -518,9 +494,6 @@ body {
     width: 98%;
   }
 }
-/* packages section Media query ends */
-
-/* About section Starts*/
 #about {
   width: 100%;
   height: fit-content;
@@ -565,9 +538,6 @@ body {
   padding-left: 1rem;
   color: var(--text-dark-shade);
 }
-/* About section Ends*/
-
-/* About Media query section Starts*/
 @media only screen and (max-width: 992px) {
   .about-wrapper {
     flex-direction: column;
@@ -589,9 +559,6 @@ body {
     }
   }
 }
-/* About Media query section Ends*/
-
-/* Founder section Starts  */
 #founder {
   width: 100%;
   height: fit-content;
@@ -623,25 +590,19 @@ body {
   margin-right: 1.5rem;
   color: var(--primary-color);
 }
-
 .founder-img-area {
   width: 30rem;
   height: 20rem;
   background-color: wheat;
-  background-image: url("../images/alziyara-founder-JahfarAvulan.jpeg");
+  background-image: url("../images/alziyara-founder-JahfarAvulan.webp");
   background-size: cover;
   background-position: center;
   border-radius: 17px;
   filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
 }
-
 .founder-text .iconify {
   color: var(--primary-color);
 }
-
-/* Founder section Ends */
-
-/* Founder section Media Query Starts */
 @media only screen and (max-width: 992px) {
   .founder-wrapper {
     flex-direction: column;
@@ -659,9 +620,6 @@ body {
     order: 2;
   }
 }
-/* Founder section Media Query Ends */
-
-/* Service section Starts */
 #services {
   width: 100%;
   height: fit-content;
@@ -706,15 +664,12 @@ body {
 .service-card:hover {
   color: var(--primary-color);
 }
-/* Service section Ends */
-
-/* Testimonials section Starts */
 .test-heading {
   margin-bottom: 2rem;
   color: #fff;
 }
 .demo {
-  background-image: url("../images/alziyara-testimonial-background.jpg");
+  background-image: url("../images/alziyara-testimonial-background.webp");
   background-size: cover;
   background-position: center;
 }
@@ -731,7 +686,6 @@ body {
 .testimonial .testimonial-content:after {
   content: "";
   display: inline-block;
-
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
@@ -764,7 +718,7 @@ body {
 .testimonial .description {
   font-size: 15px;
   font-style: italic;
-  color: #ffffff;
+  color: #fff;
   line-height: 23px;
   margin: 0;
 }
@@ -794,9 +748,6 @@ body {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
   background: var(--primary-color);
 }
-/* Testimonials section Ends */
-
-/* Contacts section Starts  */
 #contact {
   width: 100%;
   height: fit-content;
@@ -841,10 +792,6 @@ body {
 .msg-btn {
   font-size: 16px;
 }
-
-/* Contacts section Ends  */
-
-/* Contacts section Media Query Starts  */
 @media only screen and (max-width: 992px) {
   .contact-wrapper {
     flex-direction: column;
@@ -855,9 +802,6 @@ body {
     width: 100%;
   }
 }
-/* Contacts section Media Query Ends  */
-
-/* Social meida section Starts */
 #social-media {
   width: 100%;
   display: flex;
@@ -875,10 +819,6 @@ body {
   transition-duration: 0.3s;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
-/* Social meida section Ends */
-
-/* footer starts */
-
 footer {
   width: 100%;
   height: 6rem;
@@ -911,4 +851,3 @@ footer {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
-/* footer ends*/
